@@ -1,0 +1,35 @@
+.tabs .tab_links{
+	padding: 0;
+	margin: 0;
+	z-index: 2;
+}
+.tabs .tab_links li{
+	display: inline-block;
+	margin: 0;
+}
+.tabs .tab_links li a{
+	text-decoration: none;
+	color:#000;
+	padding:10px 20px;
+	display: inline-block;
+	border: 1px solid transparent;
+	border-bottom: none;
+}
+.tabs .tab_links li a.active{
+	background: #fff;
+	border:1px solid #ccc;
+	border-bottom: none;
+}
+.tabs .tab_contents{
+	background: #fff;
+	border:1px solid #ccc;
+	padding: 10px;
+	z-index: 1;
+	margin-top: -1px;
+}
+.tabs .tab_contents .tab{
+	display: none;
+}
+.tabs .tab_contents .tab.active{
+	display: block;
+}

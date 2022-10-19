@@ -1,0 +1,11 @@
+/*
+Theme Name: Homeduer Theme
+Author: LDK Technology
+Author URI: ldktech.com
+Text Domain: homeduer
+*/
+
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+@import url('http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css');
+@import url('css/style.css');
+@import url('css/responsive.css');
